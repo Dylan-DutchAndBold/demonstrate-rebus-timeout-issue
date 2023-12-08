@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5128EDB3-6E26-41FC-9393-D7867CC2057F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemonstrateRebusTimeoutIssueTests", "test\DemonstrateRebusTimeoutIssueTests\DemonstrateRebusTimeoutIssueTests.csproj", "{4E9115CB-C30D-4455-8A37-232FB5C3ACEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{5B50B0FA-6E58-49E4-A852-4452F013B545}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5BAF2F72-8707-4E8A-BE63-1F6470B048CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemonstrateRebusTimeoutIssueOnApi", "src\DemonstrateRebusTimeoutIssueOnApi\DemonstrateRebusTimeoutIssueOnApi.csproj", "{2E409D31-EE88-4EBF-A8DA-13B2E2269503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemonstrateRebusTimeoutIssueApiTests", "test\DemonstrateRebusTimeoutIssueApiTests\DemonstrateRebusTimeoutIssueApiTests.csproj", "{FC217328-A5D7-4130-98EE-D7752CC1E7A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemonstrateRebusTimeoutIssueOnApiWithMassTransit", "src\DemonstrateRebusTimeoutIssueOnApiWithMassTransit\DemonstrateRebusTimeoutIssueOnApiWithMassTransit.csproj", "{33E0CCD1-D0BA-4403-8CB1-6EEE8B65ADAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E9115CB-C30D-4455-8A37-232FB5C3ACEF} = {5128EDB3-6E26-41FC-9393-D7867CC2057F}
+		{2E409D31-EE88-4EBF-A8DA-13B2E2269503} = {5BAF2F72-8707-4E8A-BE63-1F6470B048CE}
+		{FC217328-A5D7-4130-98EE-D7752CC1E7A9} = {5128EDB3-6E26-41FC-9393-D7867CC2057F}
+		{33E0CCD1-D0BA-4403-8CB1-6EEE8B65ADAE} = {5BAF2F72-8707-4E8A-BE63-1F6470B048CE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E9115CB-C30D-4455-8A37-232FB5C3ACEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9115CB-C30D-4455-8A37-232FB5C3ACEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9115CB-C30D-4455-8A37-232FB5C3ACEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9115CB-C30D-4455-8A37-232FB5C3ACEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E409D31-EE88-4EBF-A8DA-13B2E2269503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E409D31-EE88-4EBF-A8DA-13B2E2269503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E409D31-EE88-4EBF-A8DA-13B2E2269503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E409D31-EE88-4EBF-A8DA-13B2E2269503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC217328-A5D7-4130-98EE-D7752CC1E7A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC217328-A5D7-4130-98EE-D7752CC1E7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC217328-A5D7-4130-98EE-D7752CC1E7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC217328-A5D7-4130-98EE-D7752CC1E7A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E0CCD1-D0BA-4403-8CB1-6EEE8B65ADAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E0CCD1-D0BA-4403-8CB1-6EEE8B65ADAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E0CCD1-D0BA-4403-8CB1-6EEE8B65ADAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E0CCD1-D0BA-4403-8CB1-6EEE8B65ADAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
