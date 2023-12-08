@@ -15,7 +15,7 @@ This is a sample project to demonstrate the timeout issue we are getting on our 
 1. Clone this repository
 2. Restore nuget packages
 3. Run docker-compose.yml (contains rabbitmq service)
-4. Run the tests
+4. Run the tests in the `test/` directory
 
 ## Project structure
 
